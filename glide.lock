@@ -1,0 +1,75 @@
+hash: 2cd90e8106d24a33e3eff4cf59560b1cdcf5acd3ad3cd7da17a552f2f32f454e
+updated: 2017-10-24T15:03:06.291321681-02:00
+imports:
+- name: github.com/alexflint/go-arg
+  version: cef6506c97e5731da728c374ff3523e481026423
+- name: github.com/alexflint/go-scalar
+  version: 45e5d6cd8605faef82fda2bacc59e734a0b6f1f0
+- name: github.com/asaskevich/govalidator
+  version: ddb193b4c7bfa1d1c1923ae05a1ee8fb0cd45cf3
+- name: github.com/docker/go-units
+  version: 0dadbb0345b35ec7ef35e228dabb8de89a65bf52
+- name: github.com/go-openapi/analysis
+  version: 8ed83f2ea9f00f945516462951a288eaa68bf0d6
+- name: github.com/go-openapi/errors
+  version: 03cfca65330da08a5a440053faf994a3c682b5bf
+- name: github.com/go-openapi/jsonpointer
+  version: 779f45308c19820f1a69e9a4cd965f496e0da10f
+- name: github.com/go-openapi/jsonreference
+  version: 36d33bfe519efae5632669801b180bf1a245da3b
+- name: github.com/go-openapi/loads
+  version: c3e1ca4c0b6160cac10aeef7e8b425cc95b9c820
+- name: github.com/go-openapi/runtime
+  version: e8231e16de5bcda9839e03ae07c5c96a1fd82041
+  subpackages:
+  - flagext
+  - middleware
+  - middleware/denco
+  - middleware/header
+  - middleware/untyped
+  - security
+- name: github.com/go-openapi/spec
+  version: 84b5bee7bcb76f3d17bcbaf421bac44bd5709ca6
+- name: github.com/go-openapi/strfmt
+  version: 610b6cacdcde6852f4de68998bd20ce1dac85b22
+- name: github.com/go-openapi/swag
+  version: f3f9494671f93fcff853e3c6e9e948b3eb71e590
+- name: github.com/go-openapi/validate
+  version: b6cfc35bf312e6fb320d85ed9fc3ac408dcb8694
+- name: github.com/jessevdk/go-flags
+  version: f88afde2fa19a30cf50ba4b05b3d13bc6bae3079
+- name: github.com/mailru/easyjson
+  version: 4d347d79dea0067c945f374f990601decb08abb5
+  subpackages:
+  - buffer
+  - jlexer
+  - jwriter
+- name: github.com/mitchellh/mapstructure
+  version: 06020f85339e21b2478f756a78e295255ffa4d6a
+- name: github.com/PuerkitoBio/purell
+  version: fd18e053af8a4ff11039269006e8037ff374ce0e
+- name: github.com/PuerkitoBio/urlesc
+  version: de5bf2ad457846296e2031421a34e2568e304e35
+- name: github.com/tylerb/graceful
+  version: d72b0151351a13d0421b763b88f791469c4f5dc7
+- name: golang.org/x/net
+  version: f01ecb60fe3835d80d9a0b7b2bf24b228c89260e
+  subpackages:
+  - context
+  - idna
+- name: golang.org/x/text
+  version: 6eab0e8f74e86c598ec3b6fad4888e0c11482d48
+  subpackages:
+  - secure/bidirule
+  - transform
+  - unicode/bidi
+  - unicode/norm
+  - width
+- name: gopkg.in/mgo.v2
+  version: 3f83fa5005286a7fe593b055f0d7771a7dce4655
+  subpackages:
+  - bson
+  - internal/json
+- name: gopkg.in/yaml.v2
+  version: eb3733d160e74a9c7e442f435eb3bea458e1d19f
+testImports: []

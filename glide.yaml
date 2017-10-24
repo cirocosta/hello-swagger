@@ -1,0 +1,3 @@
+package: github.com/cirocosta/hello-swagger
+import:
+- package: github.com/alexflint/go-arg

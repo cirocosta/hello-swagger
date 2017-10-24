@@ -1,0 +1,32 @@
+info:
+  title: Hello
+  version: 0.0.1
+definitions:
+  error:
+    type: object
+    required:
+      - message
+    properties:
+      code:
+        type: integer
+        format: int64
+      message:
+        type: string
+paths:
+  /hostname:
+    get:
+      operationId: getHostname
+      produces:
+      - text/plain
+      responses:
+        200:
+          description: returns the hostname of the machine
+          schema:
+            description: the hostname of the machine
+            type: string
+        default:
+          description: error
+          schema:
+            $ref: "#/definitions/error"
+swagger: "2.0"
+
