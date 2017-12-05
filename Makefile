@@ -1,6 +1,11 @@
 install:
 	go install -v
 
+
+fmt:
+	go fmt
+
+
 gen: validate
 	swagger generate server \
 		-t ./swagger \
@@ -8,7 +13,9 @@ gen: validate
 		--exclude-main \
 		-A hello
 
+
 validate:
 	swagger validate ./swagger/swagger.yml
 
-.PHONY: install gen validate
+
+.PHONY: install fmt gen validate
